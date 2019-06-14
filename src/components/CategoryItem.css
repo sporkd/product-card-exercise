@@ -1,0 +1,18 @@
+.Category-Item {
+  margin: 16px 8px;
+}
+.Category-Item a {
+  text-align: center;
+  border: 2px solid #CA0183;
+  border-radius: 0.1875rem;
+  background-color: #CA0183;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.65rem 0.9rem;
+}
+.Category-Item a.selected {
+  background-color: #fff;
+  color: #CA0183;
+}

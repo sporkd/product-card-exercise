@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
-import Products from './Products';
-import products from '../products.json';
-import Filters from './Filters';
+import Categories from "../containers/Categories";
+import VisibleProducts from "../containers/VisibleProducts";
 
 const App = () => (
   <div className="app">
     <div className="App-row">
-      <Filters />
+      <Categories />
     </div>
     <div className="App-row">
-      <Products products={products} />
+      <VisibleProducts />
     </div>
   </div>
 );
