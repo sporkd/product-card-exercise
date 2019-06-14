@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Products from './Products';
-import products from './products.json';
+import products from '../products.json';
 import Filters from './Filters';
 
 const App = () => (
